@@ -1,7 +1,28 @@
 aid: prezi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prezi.png
 name: Prezi
-description: 'Prezi is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Prezi is a presentation software company whose cloud platform lets people
+  create and deliver zooming, non-linear presentations as an alternative to
+  traditional slide decks, alongside Prezi Video for on-screen presenting and
+  Prezi Design for visual assets. Its AI features generate studio-quality decks
+  from a prompt or an uploaded PPTX, PDF, or DOCX. Prezi serves individuals,
+  educators, and business teams, and is a portfolio company of Accel. Prezi does
+  not currently publish a public developer API, SDK, or developer portal; this
+  API Evangelist profile captures the company's public developer-adjacent
+  surface (security posture, status, source repositories, and legal/commercial
+  pages) discovered during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/prezi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,16 +32,57 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
-apis: []
+- Presentations
+- Productivity
+- SaaS
+- Content Creation
+- Design
+- Video
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
-  url: http://www.prezi.com
+  url: https://prezi.com
+- type: Pricing
+  url: https://prezi.com/pricing/
+- type: SignUp
+  url: https://prezi.com/signup/
+- type: Login
+  url: https://prezi.com/login/
+- type: Blog
+  url: https://prezi.com/blog/
+- type: Support
+  url: https://prezi.com/business/support/
+- type: TermsOfService
+  url: https://prezi.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://prezi.com/legal/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/prezi
+- type: StatusPage
+  url: https://status.prezi.com
+- type: Lifecycle
+  url: lifecycle/prezi-lifecycle.yml
+- type: Security
+  url: https://prezi.com/bug-bounty/
+- type: VulnerabilityDisclosure
+  url: security/prezi-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: https://prezi.com/security/
+- type: Compliance
+  url: security/prezi-trust-center.yml
+- type: DomainSecurity
+  url: security/prezi-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://prezi.com/security/
+url: https://prezi.com/security/
+# Prezi's own audited posture. Prezi holds a SOC 2 Type 2 report (Security) and
+# states GDPR + CCPA compliance. PCI, FedRAMP, HIPAA and ISO named on the page are
+# certifications of the underlying third-party cloud provider, not Prezi itself.
+certifications:
+- SOC 2 Type 2
+- GDPR
+- CCPA
+infrastructure_certifications:
+- SOC
+- PCI DSS
+- FedRAMP
+- ISO
+practices:
+- Annual third-party penetration testing
+- 24/7/365 monitoring
+- AES-256 encryption at rest
+- TLS encryption in transit
+evidence:
+- source: https://prezi.com/security/
+  keywords:
+  - soc 2 type 2
+  - gdpr
+  - ccpa
+  - penetration testing

@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.prezi.com
+# Prezi is a SaaS presentation product, not a versioned public API. No public
+# API versioning or deprecation policy is published; the operational signal that
+# exists is a live status page covering the three product lines.
+status_page: https://status.prezi.com
+status_page_provider: Atlassian Statuspage
+status_components:
+- Prezi Video
+- Prezi Present
+- Prezi Design
+versioning: null
+deprecation: null
+sla: null
